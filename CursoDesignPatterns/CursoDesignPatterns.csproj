@@ -6,7 +6,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Strategy\" />
-    <Folder Include="Strategy\CalculadorImpostos\" />
+    <Folder Include="Strategy\RealizadorInvestimentos\" />
   </ItemGroup>
 </Project>

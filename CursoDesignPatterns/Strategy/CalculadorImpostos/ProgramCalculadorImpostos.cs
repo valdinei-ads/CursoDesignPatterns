@@ -1,11 +1,11 @@
 ﻿using System;
 namespace CursoDesignPatterns.Strategy.CalculadorImpostos
 {
-    class Program
+    public class ProgramCalculadorImpostos
     {
-        static void Main(string[] args)
+        public static void Start()
         {
-            var orcamento = new Orcamento(500);
+            var orcamento = new Orcamento(500.00);
 
             Imposto iss = new ISS();
             Console.WriteLine($"ISS: {iss.Calcular(orcamento)} ");
@@ -20,3 +20,4 @@ namespace CursoDesignPatterns.Strategy.CalculadorImpostos
         }
     }
 }
+    
