@@ -6,7 +6,7 @@
 
         public double Descontar(Orcamento orcamento)
         {
-            if (orcamento.Items.Count > 5)
+            if (orcamento.Itens.Count > 5)
                 return orcamento.Valor * 0.1;
 
             return Proximo.Descontar(orcamento);

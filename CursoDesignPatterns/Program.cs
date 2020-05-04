@@ -1,4 +1,4 @@
-﻿using CursoDesignPatterns.ChainOfResponsibility;
+﻿using CursoDesignPatterns.ChainOfResponsibility.CalculadorDescontos;
 
 namespace CursoDesignPatterns
 {

@@ -9,7 +9,7 @@
             if (orcamento.Valor > 500)
                 return orcamento.Valor * 0.07;
 
-            return 0;
+            return Proximo.Descontar(orcamento);
         }
     }
 }
